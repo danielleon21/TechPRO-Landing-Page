@@ -19,8 +19,16 @@
       <div class="contenedor contenido-header">
         <div class="imagen-header">
           <picture>
-            <source srcset="img/header.avif" type="image/avif" />
-            <source srcset="img/header.webp" type="image/webp" />
+            <source
+              sizes="1920w"
+              srcset="img/header.avif"
+              type="image/avif 1920w"
+            />
+            <source
+              sizes="1920w"
+              srcset="img/header.webp 1920w"
+              type="image/webp"
+            />
             <img
               loading="lazy"
               decoding="async"
